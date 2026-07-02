@@ -2,6 +2,8 @@ async function iniciarTransmissio(agent){
 
     output.innerHTML = "";
 
+    primeraLiniaTerminal = true;
+
     await animarProces("Sintonitzant canal");
 
     await sistema("[CANAL 7 · ESTABLE]");

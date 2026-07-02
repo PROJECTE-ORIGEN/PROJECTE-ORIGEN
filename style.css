@@ -43,7 +43,7 @@ body{
 
     justify-content:center;
 
-    align-items:flex-start;
+    align-items:center;
 
 }
 
@@ -210,8 +210,6 @@ body{
 
     height:82vh;
 
-    margin-top:20px;
-
     border-radius:18px;
 
     overflow:hidden;
@@ -273,6 +271,10 @@ body{
 
 #header{
 
+    position:relative;
+
+    z-index:10;
+
     min-height:54px;
 
     display:flex;
@@ -331,6 +333,10 @@ body{
    ========================================================== */
 
 #screen{
+
+    position:relative;
+
+    z-index:1;
 
     flex:1;
 

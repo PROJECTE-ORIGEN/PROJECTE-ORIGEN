@@ -30,7 +30,17 @@ function baixarTerminal(){
 
 }
 
+let primeraLiniaTerminal = true;
+
 async function escriu(text, velocitat = 32){
+
+    if(primeraLiniaTerminal){
+
+        espai(26);
+
+        primeraLiniaTerminal = false;
+
+    }
 
     const linea=document.createElement("div");
 
