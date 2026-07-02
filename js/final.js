@@ -245,7 +245,7 @@ async function conversaFinal(agent){
     await finalInterferenciaForta();
 
     await parlar("narax",[
-        "Agent...",
+        `${nomAgent()}...`,
         "Si encara ens pots sentir..."
     ]);
 
@@ -264,10 +264,49 @@ async function conversaFinal(agent){
         "... formes part del Projecte Origen."
     ]);
 
-    await glitchCurt()
+    await espera(500);
 
+    const conversa = parlar("zyn",[
+        "Recorda el teu àlies."
+    ]);
+
+    await espera(300);
     await glitchCurt();
 
+    await espera(600);
+    await glitchCurt();
+
+    await espera(500);
+    await glitchFort();
+
+    await conversa;
+
+    await glitchFort();
+
+    await sistema("IDENTITAT REGISTRADA");
+
+    await espera(300);
+
+    await sistema("ÀLIES: " + agent.alias.toUpperCase());
+    
+    await espera(700);
+
+    await glitchCurt()
+
+    const conversa2 = parlar("zyn",[
+        "El necessitaràs."
+    ]);
+
+    await espera(250);
+    await glitchCurt();
+
+    await espera(500);
+    await glitchCurt();
+
+    await conversa2;
+
+    await glitchCurt();
+    await glitchCurt();
     await glitchCurt();
 
     await escriu("");
