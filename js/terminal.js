@@ -62,11 +62,19 @@ async function escriu(text, velocitat = 32){
 
     if(primeraLiniaTerminal){
 
-        espai(130);
+    if(window.innerWidth < 700){
 
-        primeraLiniaTerminal = false;
+        espai(200);
+
+    }else{
+
+        espai(26);
 
     }
+
+    primeraLiniaTerminal = false;
+
+}
 
     const linea=document.createElement("div");
 
