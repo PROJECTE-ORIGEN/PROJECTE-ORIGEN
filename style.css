@@ -208,7 +208,7 @@ body{
 
     width:min(1150px,92vw);
 
-    height:82vh;
+    height:min(82vh,900px);
 
     border-radius:18px;
 
@@ -334,15 +334,13 @@ body{
 
 #screen{
 
-    position:relative;
-
-    z-index:1;
-
     flex:1;
 
     overflow-y:auto;
 
     padding:36px;
+
+    padding-top:70px;
 
 }
 
