@@ -1,0 +1,223 @@
+[
+  {
+    "imatge": "fruites.png",
+    "preguntes": [
+      {
+        "pregunta": "Quina fruita hi ha al centre de la parada?",
+        "resposta": 1,
+        "opcions": [
+          "Peres",
+          "Pomes vermelles",
+          "Kiwis",
+          "Raïm"
+        ]
+      },
+      {
+        "pregunta": "Quin objecte hi ha penjat a la dreta?",
+        "resposta": 2,
+        "opcions": [
+          "Un fanal",
+          "Un cistell",
+          "Una bàscula",
+          "Un rellotge"
+        ]
+      },
+      {
+        "pregunta": "Quantes bombetes enceses hi ha?",
+        "resposta": 0,
+        "opcions": [
+          "1",
+          "2",
+          "3",
+          "Cap"
+        ]
+      },
+      {
+        "pregunta": "Quan costa un suc natural?",
+        "resposta": 3,
+        "opcions": [
+          "0,75€",
+          "1€",
+          "1,80€",
+          "2€"
+        ]
+      },
+      {
+        "pregunta": "De quin color és el davantal de la fruitera?",
+        "resposta": 2,
+        "opcions": [
+          "Blau",
+          "Vermell",
+          "Verd",
+          "Negre"
+        ]
+      }
+    ]
+  },
+  {
+    "imatge": "classe.png",
+    "preguntes": [
+      {
+        "pregunta": "Quin dia de la setmana tindran examen?",
+        "resposta": 2,
+        "opcions": [
+          "Dimarts",
+          "Dijous",
+          "Divemdres",
+          "Dilluns"
+        ]
+      },
+      {
+        "pregunta": "Quin objecte hi ha damunt la taula del professor?",
+        "resposta": 0,
+        "opcions": [
+          "Un globus terraqüi",
+          "Un pantalla d'ordinador",
+          "Un estoig",
+          "Una motxilla"
+        ]
+      },
+      {
+        "pregunta": "Quantes pissarres hi ha visibles?",
+        "resposta": 1,
+        "opcions": [
+          "Una",
+          "Dues",
+          "Tres",
+          "Cap"
+        ]
+      },
+      {
+        "pregunta": "Què està dibuixant el professor?",
+        "resposta": 3,
+        "opcions": [
+          "Un cercle",
+          "Un quadrat",
+          "Un mapa",
+          "Un triangle"
+        ]
+      },
+      {
+        "pregunta": "De quin color són les cadires?",
+        "resposta": 0,
+        "opcions": [
+          "Blaves i grogues",
+          "Blaves",
+          "Grogues i vermelles",
+          "Negres i blaves"
+        ]
+      }
+    ]
+  },
+  {
+    "imatge": "llibreria.png",
+    "preguntes": [
+      {
+        "pregunta": "Quin objecte (que no és una planta) hi ha damunt de la llibreria?",
+        "resposta": 1,
+        "opcions": [
+          "Un rellotge",
+          "Un globus terraqüi",
+          "Una ràdio",
+          "Una capsa"
+        ]
+      },
+      {
+        "pregunta": "Quantes plantes hi ha en total a l'habitació?",
+        "resposta": 2,
+        "opcions": [
+          "Dues",
+          "Sis",
+          "Onze",
+          "Quinze"
+        ]
+      },
+      {
+	"pregunta": "De quin color és l'arxivador del mig? (dels tres que hi ha)",
+        "resposta": 1,
+        "opcions": [
+          "Verd",
+          "Blau",
+          "Grox",
+          "Lila"
+        ]
+      },
+      {
+
+	"pregunta": "Quants marcs de fotos/quadres hi ha a l'habitació?",
+        "resposta": 3,
+        "opcions": [
+          "Cap",
+          "Dos",
+          "Tres",
+          "Cinc"        
+        ]
+      },
+      {
+        "pregunta": "Què hi ha al terra davant la llibreria?",
+        "resposta": 2,
+        "opcions": [
+          "Una cadira",
+          "Una caixa",
+          "Una catifa",
+          "Una làmpada"
+        ]
+      }
+    ]
+  },
+  {
+    "imatge": "habitacioInfantil.png",
+    "preguntes": [
+      {
+        "pregunta": "Quin animal de peluix és el més gran?",
+        "resposta": 0,
+        "opcions": [
+          "Un ós",
+          "Un conill",
+          "Un dinosaure",
+          "Un elefant"
+        ]
+      },
+      {
+        "pregunta": "De quin color és la cadira on seu la nena?",
+        "resposta": 1,
+        "opcions": [
+          "Blava",
+          "Vermella",
+          "Verda",
+          "Groga"
+        ]
+      },
+      {
+        "pregunta": "Què hi ha a la dreta de l'habitació?",
+        "resposta": 3,
+        "opcions": [
+          "Un armari",
+          "Un llit",
+          "Una pissarra",
+          "Una tenda tipi"
+        ]
+      },
+      {
+        "pregunta": "Quants quadres penjats hi ha a la paret?",
+        "resposta": 2,
+        "opcions": [
+          "Dos",
+          "Quatre",
+          "Tres",
+          "Cinc"
+        ]
+      },
+      {
+        "pregunta": "Quin vehicle de joguina hi ha al terra?",
+        "resposta": 1,
+        "opcions": [
+          "Una bici",
+          "Un tren",
+          "Un avió",
+          "Un cotxe"
+        ]
+      }
+    ]
+  }
+]

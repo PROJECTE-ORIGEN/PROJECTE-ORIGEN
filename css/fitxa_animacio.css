@@ -1,0 +1,210 @@
+/*==================================================
+RECUPERACIÓ EXPEDIENT
+==================================================*/
+
+.popupRecuperacio{
+
+    width:760px;
+
+    max-width:92vw;
+
+    background:#081217;
+
+    border:2px solid #2b5562;
+
+    border-radius:14px;
+
+    padding:42px;
+
+    box-shadow:
+    0 0 40px rgba(0,255,255,.08);
+
+    color:#dbeef2;
+
+}
+
+.recuperacioTitol{
+
+    text-align:center;
+
+    font-size:2rem;
+
+    letter-spacing:6px;
+
+    font-weight:700;
+
+    color:#7ef6ff;
+
+    margin-bottom:34px;
+
+}
+
+.barraExteriorRec{
+
+    width:100%;
+
+    height:18px;
+
+    border:1px solid #4d727d;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+    background:#102028;
+
+}
+
+.barraInteriorRec{
+
+    width:0%;
+
+    height:100%;
+
+    background:
+    linear-gradient(
+        90deg,
+        #35d7ff,
+        #63f4ff,
+        #d8ffff
+    );
+
+    box-shadow:
+
+    0 0 18px #63f4ff,
+
+    inset 0 0 8px rgba(255,255,255,.45);
+
+    transition:width .55s ease;
+
+}
+
+.percentatgeRec{
+
+    margin-top:14px;
+
+    text-align:right;
+
+    font-size:1.1rem;
+
+    font-weight:700;
+
+    color:#9efbff;
+
+    letter-spacing:2px;
+
+}
+
+.logsRecuperacio{
+
+    margin-top:40px;
+
+    height:185px;
+
+    overflow:hidden;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+    font-size:1.02rem;
+
+    color:#d7f7fa;
+
+    line-height:1.5;
+
+    font-family:inherit;
+
+}
+
+.logsRecuperacio div{
+
+    opacity:0;
+
+    animation:entradaLog .35s forwards;
+
+}
+
+@keyframes entradaLog{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(8px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.fet{
+
+    color:#63f4ff;
+
+    font-weight:700;
+
+    margin-right:10px;
+
+}
+
+.actiu{
+
+    color:#ffd85c;
+
+    font-weight:700;
+
+    margin-right:10px;
+
+    animation:parpelleigActiu .8s infinite;
+
+}
+
+@keyframes parpelleigActiu{
+
+    0%{
+
+        opacity:1;
+
+    }
+
+    50%{
+
+        opacity:.25;
+
+    }
+
+    100%{
+
+        opacity:1;
+
+    }
+
+}
+
+.finalRecuperacio{
+
+    margin-top:18px;
+
+    text-align:center;
+
+    color:#ffd85c;
+
+    font-size:1.2rem;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+    animation:parpelleigActiu .8s infinite;
+
+}

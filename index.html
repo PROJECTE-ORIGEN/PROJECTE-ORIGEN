@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PROJECTE ORIGEN</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+<link
+href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/enigmes.css">
+<link rel="stylesheet" href="css/fitxa_animacio.css">
+<link rel="stylesheet" href="css/fitxa.css">
+
+</head>
+
+<body>
+
+<div id="background">
+
+    <div id="stars"></div>
+
+    <div id="grid"></div>
+
+    <div id="aurora"></div>
+
+    <div id="noise"></div>
+
+    <div id="scanlines"></div>
+
+    <div id="vignette"></div>
+
+</div>
+
+<div id="terminal">
+
+    <div id="header">
+
+    <div class="led red"></div>
+    <div class="led yellow"></div>
+    <div class="led green"></div>
+
+    <span id="headerTitle">PROJECTE ORIGEN</span>
+
+    <div id="statusBar">
+
+        <span id="signal">📡 CANAL SEGUR</span>
+
+        <span id="timeStatus">TEMPORALITAT: ???</span>
+
+    </div>
+
+</div>
+
+    <div id="screen">
+
+<div id="pantalla">
+
+    <div id="output"></div>
+
+    <div id="overlay"></div>
+
+</div>
+
+    <div id="inputArea" class="hidden">
+
+        <span>&gt;</span>
+
+        <input
+            id="codeInput"
+            type="text"
+            maxlength="20"
+            autocomplete="off"
+            spellcheck="false">
+
+    </div>
+
+</div>
+
+</div>
+
+<div id="modal" class="hidden">
+
+    <div id="modalWindow">
+
+        <div id="modalHeader">
+
+            <span>ARXIU CLASSIFICAT</span>
+
+            <button id="closeModal">✕</button>
+
+        </div>
+
+        <div id="modalContent">
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/effects.js"></script>
+<script src="js/terminal.js"></script>
+<script src="js/database.js"></script>
+<script src="js/filesystem.js"></script>
+<script src="js/transfer.js"></script>
+<script src="js/documents.js"></script>
+<script src="js/transmission.js"></script>
+<script src="js/log.js"></script>
+<script src="js/files.js"></script>
+<script src="js/fitxa_animacio.js"></script>
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+<script src="js/final.js"></script>
+<script src="js/fitxa.js"></script>
+<script src="js/enigmes.js"></script>
+<script src="js/status.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/boot.js"></script>
+<script src="js/login.js"></script>
+
+</body>
+
+</html>
