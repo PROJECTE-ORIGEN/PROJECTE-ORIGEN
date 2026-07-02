@@ -22,6 +22,32 @@ const personatges={
     
 function baixarTerminal(){
 
+    // Només al mòbil
+    if(window.innerWidth <= 700){
+
+        requestAnimationFrame(()=>{
+
+            const ultimaLinia = output.lastElementChild;
+
+            if(ultimaLinia){
+
+                ultimaLinia.scrollIntoView({
+
+                    block:"end",
+
+                    behavior:"auto"
+
+                });
+
+            }
+
+        });
+
+        return;
+
+    }
+
+    // Ordinador (exactament igual que abans)
     requestAnimationFrame(()=>{
 
         screen.scrollTop = screen.scrollHeight;
