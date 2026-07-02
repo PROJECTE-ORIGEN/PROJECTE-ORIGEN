@@ -62,7 +62,7 @@ async function escriu(text, velocitat = 32){
 
     if(primeraLiniaTerminal){
 
-        espai(90);
+        espai(130);
 
         primeraLiniaTerminal = false;
 
