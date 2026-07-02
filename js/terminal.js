@@ -64,7 +64,7 @@ async function escriu(text, velocitat = 32){
 
     if(window.innerWidth < 700){
 
-        espai(200);
+        espai(26);
 
     }else{
 
