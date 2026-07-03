@@ -866,7 +866,7 @@ BOOT
 
     overflow:hidden;
 
-    margin:25px 0;
+    margin:16px 0;
 
     background:#081018;
 
@@ -904,7 +904,7 @@ BOOT
 
     letter-spacing:3px;
 
-    margin-bottom:25px;
+    margin-bottom:14px;
 
 }
 
@@ -2057,5 +2057,25 @@ opacity:0;
     padding:16px 0;
 
     }
+
+}
+
+#bootText{
+
+    margin-top:20px;
+
+    line-height:0.25;
+
+}
+
+.bootInfo{
+
+    margin:4px 0;
+
+}
+
+.bootOk{
+
+    margin-top:14px;
 
 }
